@@ -1,0 +1,74 @@
+span {
+  font-size: 3rem;
+}
+
+p {
+  color: #000;
+}
+
+.title {
+  background-color: #000;
+  text-align: left;
+}
+
+.background-img {
+  width: 104%;
+}
+
+.title-img-div {
+  position: relative;
+  padding-left: 7%;
+  padding-top: 14%;
+}
+
+.big-title {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.sub-title {
+  font-family: 'Passions Conflict', cursive;
+  font-size: 4rem;
+  color: #fff;
+}
+
+.music-img {
+  position: absolute;
+  width: 65%;
+  opacity: 0.2;
+}
+
+.music-div {
+  position: relative;
+}
+
+.info {
+  padding: 4% 14% 5%;
+}
+
+#footer {
+  background-color: #000;
+  text-align: center;
+  padding: 3% 0%;
+}
+
+.footer-text {
+  color: #fff;
+}
+
+/*------------------------------------------media query breakpoints-------------------------------------------------*/
+@media (max-width:1028px) {
+  .title {
+    text-align: center;
+  }
+  .title-img-div{
+    padding-top: 1%;
+  }
+}
+
+/*-------------------------------------------------fonts used------------------------------------------------------------------------
+font-family: 'Lato', sans-serif;
+font-family: 'Lovers Quarrel', cursive;
+font-family: 'Passions Conflict', cursive;
+*/
